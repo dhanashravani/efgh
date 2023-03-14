@@ -11,7 +11,7 @@ public class Student implements Serializable {
 	
 	@Id
 	//@GeneratedValue(strategy=GenerationType.AUTO)
-	private int studentId;
+	private int studentId;//attributes
 	private String name;
 	public int getStudentId() {
 		return studentId;
